@@ -1,0 +1,80 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*overflow:hidden;*/
+  text-align: center;
+  padding: 20px 0 0;
+}
+.container #cityInput {
+  margin: 0 auto;
+  height: 40px;
+  width: 10vh;
+  border-radius: 30px;
+  border-color: cornflowerblue;
+  background-color: gold;
+}
+.container #cityInput.hover {
+  background-color: red;
+}
+.container #cityInput:focus {
+  border-radius: 40px;
+  font-style: italic;
+  color: darkblue;
+  background-color: gold;
+  border-color: blue;
+  width: 300px;
+  height: 40px;
+  font-size: 30px;
+}
+.container .des {
+  width: 50vw;
+  height: 10vh;
+  margin: 0 auto;
+}
+.container .containerPic {
+  padding: 610px 100px 0 100px;
+}
+.container .containerPic #imgLib {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container .containerPic #imgLib .imgdiv {
+  background: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 2px;
+  justify-content: space-between;
+}
+.container .containerPic #imgLib .img {
+  width: 50px;
+  margin: 3px;
+}
+.container #left, .container #right, .container #nextTen, .container #lastTen {
+  background-color: rgba(255, 0, 0, 0.2);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+}
+.container #right:hover, .container #nextTen:hover {
+  background-color: rgba(255, 249, 238, 0.5);
+}
+.container #left:hover, .container #lastTen:hover {
+  background-color: rgba(255, 249, 238, 0.2);
+}
+
+/*# sourceMappingURL=city-view.css.map */

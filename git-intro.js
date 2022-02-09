@@ -28,6 +28,8 @@
 // to save the change
 // git commit -m "write sth here"
 
+// git push --set-upstream origin jc-1.0-20220207
+
 // to create a branch/version
 // git checkout -b 'jt-branch-version1.0'
 
@@ -36,3 +38,45 @@
 
 // fffff
 // built a carousel
+
+// git: 纵向命令。横向命令。写简历但是不考
+
+
+// Workflow of a project
+
+// 1. clone your project
+// git clone git@gitlab.com:jchen74/fetch-city-view.git
+
+//2. create your own branch!!!
+//git checkout -b your-branch-name
+// (-b it means branch)
+
+//3. edit/add your code
+
+//4. save and push your branch to the project
+//git add .
+//git commit -m "add sth"
+//git push
+//copy and paste the notification. e.g: git push --set-upstream origin jc-1.0-20220207
+
+//5. merge request
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
